@@ -12,3 +12,15 @@
 6. 追踪当前选中的问题在数组中的索引
 7. 定义一个函数更新状态变量来反映选中的问题索引
 8. 用选中的问题索引来加载对应的 `SingleQuestion` 组件。
+
+## My Error
+
+1. 总是在遍历组件的时候忘记 `return`
+   ```jsx
+    <section>
+      <h1>Questions</h1>
+      {questions.map((question) => {
+        return <SingleQuestion key={question.id} {...question} />;
+      })}
+    </section>
+   ```
