@@ -30,3 +30,7 @@ button {
 .question:not(:first-child) {
   margin-top: 1rem;
 }
+
+.rotate {
+  transform: rotate(90deg);
+}

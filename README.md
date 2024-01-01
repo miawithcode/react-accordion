@@ -1,6 +1,7 @@
 ## Accordion Question
 
 手风琴组件，点击问题可以查看或收起回答。
+![](/public/Screenshot.png)
 
 ## Step
 
