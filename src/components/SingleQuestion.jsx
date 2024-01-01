@@ -10,9 +10,10 @@ const SingleQuestion = ({ title, answer }) => {
       <header>
         <h4>{title}</h4>
         <button onClick={() => setShowAnser(!showAnswer)}>
+          {showAnswer ? <FaMinusCircle /> : <FaPlusCircle />}
         </button>
       </header>
-      <p>{answer}</p>
+      {showAnswer && <p>{answer}</p>}
     </article>
   );
 };

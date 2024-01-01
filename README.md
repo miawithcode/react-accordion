@@ -24,3 +24,8 @@
       })}
     </section>
    ```
+2. 在 toggle 状态的时候，总是忘记要用 `setState()` 
+   ```jsx
+   <button onClick={() => setShowAnser(!showAnswer)}>
+  </button>
+   ```
