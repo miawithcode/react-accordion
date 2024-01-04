@@ -14,7 +14,7 @@
 7. 定义一个函数更新状态变量来反映选中的问题索引
 8. 用选中的问题索引来加载对应的 `SingleQuestion` 组件。
 
-## My Error
+## Problem I keep having
 
 1. 总是在遍历组件的时候忘记 `return`
    ```jsx
@@ -28,5 +28,5 @@
 2. 在 toggle 状态的时候，总是忘记要用 `setState()` 
    ```jsx
    <button onClick={() => setShowAnser(!showAnswer)}>
-  </button>
+   </button>
    ```
